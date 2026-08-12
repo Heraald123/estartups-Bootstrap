@@ -1,0 +1,71 @@
+.herosection {
+  min-height: 100px;
+  padding: 80px 0px;
+  background-color: #f3f8f3;
+  margin-top:100px;
+}
+.hero-title {
+  margin-bottom: 28px;
+  color: #102010;
+  font-size: 3.7rem;
+  font-weight: 500;
+  line-height: 1.1;
+}
+.hero-description {
+  max-width: 650px;
+  margin-bottom: 40px;
+  color: #687477;
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+.get-started-btn {
+  min-width: 198px;
+  padding: 14px 30px;
+  border: 2px solid #69c653;
+  border-radius: 50px;
+  background-color: #69c653;
+  color: #ffffff;
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  transition: all 0.3s ease;
+}
+.get-started-btn:hover {
+  border-color: #55ae40;
+  background-color: #55ae40;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+.watch-video-btn {
+  color: #69c653;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.video-icon {
+  width: 42px;
+  height: 42px;
+  border: 2px solid #69c653;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  transition: all 0.3s ease;
+}
+.video-icon i {
+  margin-left: 3px;
+}
+.watch-video-btn:hover {
+  color: #55ae40;
+}
+.watch-video-btn:hover .video-icon {
+  background-color: #69c653;
+  color: #ffffff;
+}
+.hero-image-box {
+  width: 100%;
+}
+.hero-image {
+  width: 100%;
+  max-width: 760px;
+  object-fit: contain;
+}
