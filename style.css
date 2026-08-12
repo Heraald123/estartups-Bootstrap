@@ -822,6 +822,9 @@ body {
 
 /* Tablet and mobile screen */
 @media (max-width: 576px) {
+  .nav-item{
+    color:black;
+  }
   .hero-section {
     min-height: auto;
     padding: 55px 0;
