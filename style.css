@@ -8,7 +8,7 @@ body {
 }
 /* Css */
 .navbar {
-  height: 60px;
+  height: 80px;
   background-color: white;
   border-bottom: 5px solid #f4f8f4;
 }
@@ -822,6 +822,7 @@ body {
 
 /* Tablet and mobile screen */
 @media (max-width: 576px) {
+
   .nav-item{
     color:black;
   }
@@ -872,6 +873,7 @@ body {
   }
   .about-section {
     padding: 60px 0;
+    margin-top:60px;
   }
 
   .about-heading {
@@ -880,6 +882,9 @@ body {
 
   .about-content {
     margin-bottom: 20px;
+  }
+  .services-section{
+    margin-top:60px;
   }
   .services-title {
     font-size: 2rem;
@@ -899,6 +904,9 @@ body {
   .service-card h3 {
     font-size: 1.35rem;
   }
+  .features-section{
+    margin-top:60px;
+  }
   .features-title {
     font-size: 2rem;
   }
@@ -913,6 +921,7 @@ body {
   }
   .pricing-section {
     padding: 60px 0 30px;
+    margin-top:60px;
   }
 
   .pricing-heading {
@@ -946,6 +955,7 @@ body {
   }
   .contact-section {
     padding: 50px 0;
+    margin-top:60px;
   }
 
   .contact-title {
@@ -967,6 +977,7 @@ body {
   }
   .footer-section {
     padding: 42px 15px 25px;
+    
   }
 
   .footer-copyright {
@@ -983,6 +994,7 @@ body {
 
 }
 @media (min-width: 576px) and (max-width: 768px) {
+  
   .about-heading {
     font-size: 1.8rem;
   }
