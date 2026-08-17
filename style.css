@@ -76,49 +76,7 @@ body {
 
 
 
-.deep-dropdown {
-    position: relative;
-}
 
-
-
-
-.deep-link {
-    display: flex;
-
-    justify-content: space-between;
-
-    align-items: center;
-}
-
-
-
-
-.deep-link span {
-    margin-left: 30px;
-
-    font-size: 20px;
-}
-
-
-.deep-menu {
-    position: absolute;
-
-    top: 0;
-
-    left: 100%;
-
-    margin-left: 2px;
-
-    display: none;
-}
-
-
-
-
-.deep-dropdown:hover > .deep-menu {
-    display: block;
-}
 .hero-slide {
     height: 600px;
 
